@@ -43,7 +43,7 @@
 
                 </ul>
                 <div class="card-body d-flex justify-content-evenly">
-                    <a class="card-link btn btn-primary" href="/campgrounds">All Campgrounds</a>
+                    
                     <% if (currentUser && campground.author.equals(currentUser._id)) { %>
                         <a class="card-link btn btn-info ml-0" href="/campgrounds/<%= campground._id %>/edit">Edit
                             Campground</a>
